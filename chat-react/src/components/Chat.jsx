@@ -29,7 +29,7 @@ function Chat() {
         </div>
       </main>
       <div>
-        <form onSubmit={handleSendMessage}>
+        <form id="chat" onSubmit={handleSendMessage}>
           <textarea
             required
             placeholder="Digite sua mensagem..."
